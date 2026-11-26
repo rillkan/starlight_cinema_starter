@@ -1,4 +1,4 @@
-import aboutText from '../content/about.md?raw'
+import aboutText from '../content/About.md?raw'
 
 function About() {
   return (
