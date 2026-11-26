@@ -5,7 +5,7 @@ function Home() {
   return (
     <section className="card">
       <h2>Home</h2>
-      <Greeting name={currentUser.name} />
+      <Greeting name={currentUser.fullName} />
       <p className="muted">Now showing tonight:</p>
       <ul className="film-list">
         <li><span>The Last Monsoon</span><span>7:30 PM</span></li>

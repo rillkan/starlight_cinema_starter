@@ -11,7 +11,7 @@ function applyMemberDiscount(member, subtotal) {
 
 function BookingSummary({ items, member }) {
   const subtotal = getSubtotal(items)
-  const total = applyMemberDiscount(subtotal, member)
+  const total = applyMemberDiscount(member, subtotal)
 
   return (
     <section className="card">
